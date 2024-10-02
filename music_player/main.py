@@ -5,13 +5,13 @@ import time
 
 if __name__ == "__main__":
     # Set the paths to the sound files
-    background_music = os.path.join(os.path.dirname(__file__), 'sound', 'powerful-energy-upbeat.mp3')
+    background_music = os.path.join(os.path.dirname(__file__), 'sounds', 'background_powerful-energy-upbeat.mp3')
     
     # Paths to multiple sound effects
     effects = {
-        "pixel_touch": os.path.join(os.path.dirname(__file__), 'sound', 'retro-game-notification-212.wav'),
-        "bomb": os.path.join(os.path.dirname(__file__), 'sound', 'game-explosion-echo-1698.wav'),  
-        "bonus": os.path.join(os.path.dirname(__file__), 'sound', 'bonus-alert-767.wav'),    
+        "pixel_touch": os.path.join(os.path.dirname(__file__), 'sounds', 'pixel_touch_1.wav'),
+        "bomb": os.path.join(os.path.dirname(__file__), 'sounds', 'game-explosion-echo-1698.wav'),  
+        "bonus": os.path.join(os.path.dirname(__file__), 'sounds', 'bonus-alert-767.wav'),    
     }
 
     # Create an instance of SoundPlayer for the background music
